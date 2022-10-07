@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_two/screen/images_net_ass.dart';
+import 'package:flutter_two/screen/button_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return  MaterialApp(
     theme: ThemeData(primarySwatch: Colors.yellow),
       debugShowCheckedModeBanner: false,
-      home:const MyImages(),
+      home:const MyButtonPage(),
     );
   }
 }
